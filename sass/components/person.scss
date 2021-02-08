@@ -1,0 +1,27 @@
+.person {
+  width: 22rem;
+  &__img {
+    width: 13rem;
+    height: 13rem;
+    margin: 0 auto 1.6rem;
+  }
+  &__name {
+    margin-bottom: 0.8rem;
+    color: $color-third;
+  }
+  &__desc {
+    margin-top: 1.6rem;
+  }
+  &__socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+  &__socials-icon {
+    width: 4.3rem;
+    height: 2.3rem;
+    margin: 0 0.3rem;
+    border-radius: 3px;
+    border: 1px solid #7f8b98;
+  }
+}
