@@ -1,20 +1,18 @@
-$color-dark: #2d3236;
-$color-dimmed: #808080;
+$color-dark: #45515f;
 $color-white: #ffffff;
-$color-brand_primary: #215398;
-$color-brand_secondary: #28a9e0;
-$color-light: #f1f6fc;
-$color-ornate: #ff3859;
+$color-primary: #4250bf;
+$color-secondary: #252b42;
+$color-third: #38a5db;
+$color-dimmed: #1c1f83;
 
-$wrapper-width: 110rem;
+$wrapper-width: 120rem;
 $wrapper-padding: 2rem;
-$vw-base: 1920;
+$vw-base: 1440;
 
-// $real-100vh: calc(var(--vh, 1vh) * 100);
-
-$base-font: "Rubik", sans-serif;
-$base-font-weight: 300;
-$base-font-size: 2rem;
+$base-font: "Sen", sans-serif;
+$second-font: "Open Sans", sans-serif;
+$base-font-weight: 400;
+$base-font-size: 1.8rem;
 
 $over-all: 99999999;
 $over-content: 100;

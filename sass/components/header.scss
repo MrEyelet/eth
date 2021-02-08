@@ -1,8 +1,13 @@
 .header {
-  @include wrapper;
-  padding-top: 2.3rem;
-  padding-bottom: 2.3rem;
-  img {
-    width: 16rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  &__wrapper {
+    @include wrapper;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
   }
 }

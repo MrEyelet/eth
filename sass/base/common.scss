@@ -10,18 +10,22 @@ html {
 body {
   font-family: $base-font;
   font-size: $base-font-size;
+  color: $color-dark;
+}
+main {
+  margin-top: 7rem;
 }
 h1 {
   font-size: 4rem;
-  line-height: 5.2rem;
+  line-height: 5.6rem;
 }
 h2 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 1.6rem;
+  line-height: 3.4rem;
 }
 h3 {
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
 }
 h1,
 h2,
@@ -32,7 +36,17 @@ h6,
 p {
   font-weight: $base-font-weight;
 }
-.small-desc {
-  font-size: 1.5rem;
-  line-height: 2.4rem;
+.text-normal {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+.text-small {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
 }
