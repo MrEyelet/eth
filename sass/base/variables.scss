@@ -1,0 +1,31 @@
+$color-dark: #2d3236;
+$color-dimmed: #808080;
+$color-white: #ffffff;
+$color-brand_primary: #215398;
+$color-brand_secondary: #28a9e0;
+$color-light: #f1f6fc;
+$color-ornate: #ff3859;
+
+$wrapper-width: 110rem;
+$wrapper-padding: 2rem;
+$vw-base: 1920;
+
+// $real-100vh: calc(var(--vh, 1vh) * 100);
+
+$base-font: "Rubik", sans-serif;
+$base-font-weight: 300;
+$base-font-size: 2rem;
+
+$over-all: 99999999;
+$over-content: 100;
+$below-content: -100;
+
+//bp
+$screen-mobile-sm: 320px;
+$screen-mobile: 376px;
+$screen-mobile-lg: 480px;
+$screen-phablet: 576px;
+$screen-portrait: 768px;
+$screen-portrait-lg: 992px;
+$screen-tablet: 1024px;
+$screen-laptop-sm: 1200px;

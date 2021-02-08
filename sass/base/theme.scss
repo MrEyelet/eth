@@ -1,0 +1,10 @@
+.theme {
+  &--dark {
+    background-color: $color-brand_primary;
+    color: $color-white;
+  }
+  &--light {
+    background-color: $color-light;
+    color: $color-dark;
+  }
+}
