@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  width: 100%;
+  padding: 8.4rem 4rem 2.6rem;
+  margin: 5rem auto 0;
+  background-color: $color-primary;
+  border-radius: 1.3rem;
+  input {
+    margin-bottom: 2.4rem;
+    padding: 1.3rem 2rem;
+    border-radius: 2.5rem;
+    border: none;
+  }
+}

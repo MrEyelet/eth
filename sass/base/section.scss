@@ -1,6 +1,7 @@
 .section {
-  @include wrapper;
-  padding-top: 5rem;
-  padding-bottom: 6rem;
+  position: relative;
   text-align: center;
+  &__wrapper {
+    @include wrapper;
+  }
 }

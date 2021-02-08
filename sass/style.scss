@@ -12,9 +12,14 @@
 @import "base/section";
 @import "base/theme";
 
+/* Sections */
+@import "sections/section--team";
+@import "sections/section--contact";
+
 /* BEM Blocks */
 @import "components/header";
 @import "components/footer";
 @import "components/btn";
 @import "components/logo";
 @import "components/nav";
+@import "components/form";
