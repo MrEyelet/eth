@@ -1,5 +1,5 @@
 .person {
-  width: 25%;
+  // width: 25%;
   &__img {
     width: 13rem;
     height: 13rem;
@@ -19,10 +19,17 @@
     margin-top: 3.2rem;
   }
   &__socials-icon {
+    display: block;
     width: 4.3rem;
     height: 2.3rem;
     margin: 0 0.3rem;
     border-radius: 3px;
     border: 1px solid #7f8b98;
+  }
+  &__socials-fb {
+    width: 0.8rem;
+  }
+  &__socials-in {
+    width: 1.2rem;
   }
 }

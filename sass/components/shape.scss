@@ -5,15 +5,15 @@
   // z-index: $over-content;
   width: 100%;
   &--large {
-    width: 144rem;
+    max-width: 144rem;
   }
   &--medium {
-    width: 136rem;
+    max-width: 136rem;
     top: -7rem;
     z-index: $three;
   }
   &--small {
-    width: 84rem;
+    max-width: 84rem;
     top: -7rem;
     z-index: $two;
   }

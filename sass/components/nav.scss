@@ -5,6 +5,10 @@
     width: 22rem;
   }
   &__list-link {
+    padding: 0 0.4rem 0.7rem;
     color: $color-dimmed;
+    &.active {
+      border-bottom: 2px solid $color-dimmed;
+    }
   }
 }

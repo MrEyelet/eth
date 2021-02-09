@@ -1,5 +1,5 @@
 // Modules / classes
-import Test from "./modules/Test"
+import Slider from "./modules/Slider"
 
 // Instantiate a new object using our modules/classes
-var test = new Test()
+var slider = new Slider()

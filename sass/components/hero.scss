@@ -1,5 +1,8 @@
 .hero {
   display: flex;
+  @include portrait {
+    flex-direction: column;
+  }
   &__intro {
     max-width: 56rem;
     width: 100%;
@@ -12,6 +15,9 @@
   }
   &__col {
     width: 50%;
+    @include portrait {
+      width: 100%;
+    }
   }
   &__play-btn {
     width: 6.3rem;
@@ -29,5 +35,10 @@
     width: 54.4rem;
     top: 1.6rem;
     right: -13.4rem;
+    @include portrait {
+      margin: 0 auto;
+      top: 0;
+      right: 0;
+    }
   }
 }
