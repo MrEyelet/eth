@@ -1,5 +1,5 @@
 .person {
-  width: 22rem;
+  width: 25%;
   &__img {
     width: 13rem;
     height: 13rem;
@@ -10,7 +10,8 @@
     color: $color-third;
   }
   &__desc {
-    margin-top: 1.6rem;
+    margin-top: 1rem;
+    padding: 0 2rem;
   }
   &__socials {
     display: flex;

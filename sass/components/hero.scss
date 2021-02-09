@@ -1,4 +1,5 @@
 .hero {
+  display: flex;
   &__intro {
     max-width: 56rem;
     width: 100%;
@@ -8,5 +9,25 @@
       margin-top: 10rem;
       font-weight: 700;
     }
+  }
+  &__col {
+    width: 50%;
+  }
+  &__play-btn {
+    width: 6.3rem;
+    height: 6.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: $over-content;
+    border: none;
+    background: transparent;
+  }
+  &__img {
+    @include resp-img((382/544) * 100%);
+    width: 54.4rem;
+    top: 1.6rem;
+    right: -13.4rem;
   }
 }
