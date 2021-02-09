@@ -1,0 +1,18 @@
+.shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // z-index: $over-content;
+  // width: 100%;
+  &--large {
+    width: 144rem;
+  }
+  &--medium {
+    width: 136rem;
+    z-index: $three;
+  }
+  &--small {
+    width: 84rem;
+    z-index: $two;
+  }
+}

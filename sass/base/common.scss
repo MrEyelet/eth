@@ -12,6 +12,7 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   color: $color-dark;
+  overflow-x: hidden;
 }
 main {
   margin-top: 7rem;

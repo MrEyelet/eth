@@ -1,0 +1,7 @@
+.section--hero {
+  min-height: 90rem;
+  .section__wrapper {
+    position: relative;
+    z-index: $over-content;
+  }
+}

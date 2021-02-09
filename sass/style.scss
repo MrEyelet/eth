@@ -13,6 +13,7 @@
 @import "base/theme";
 
 /* Sections */
+@import "sections/section--hero";
 @import "sections/section--team";
 @import "sections/section--contact";
 
@@ -22,5 +23,7 @@
 @import "components/btn";
 @import "components/logo";
 @import "components/nav";
+@import "components/hero";
+@import "components/shape";
 @import "components/person";
 @import "components/form";
