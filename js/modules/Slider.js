@@ -7,7 +7,7 @@ class Slider {
   }
 
   initSlider() {
-    console.log("test")
+    // console.log("test")
     const breakpoint = window.matchMedia("(min-width:768px)")
     let mySwiper
     const breakpointChecker = () => {
@@ -20,7 +20,7 @@ class Slider {
     }
     const enableSwiper = () => {
       mySwiper = new Swiper(".swiper-container", {
-        loop: true,
+        // loop: true,
         slidesPerView: 3,
         // 320: {
         //   slidesPerView: 2,
