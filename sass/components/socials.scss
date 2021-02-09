@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 1.6rem;
   right: 9.6rem;
+  z-index: $header;
   &__fb,
   &__twitter {
     display: block;
