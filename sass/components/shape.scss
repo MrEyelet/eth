@@ -6,15 +6,27 @@
   width: 100%;
   &--large {
     max-width: 144rem;
+    @include portrait {
+      width: 140%;
+      top: 23rem;
+    }
   }
   &--medium {
     max-width: 136rem;
     top: -7rem;
     z-index: $three;
+    @include portrait {
+      width: 250%;
+      top: 0;
+    }
   }
   &--small {
     max-width: 84rem;
     top: -7rem;
     z-index: $two;
+    @include portrait {
+      top: 1rem;
+      left: -20rem;
+    }
   }
 }

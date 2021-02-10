@@ -4,13 +4,19 @@
     flex-direction: column;
   }
   &__intro {
-    max-width: 56rem;
-    width: 100%;
     text-align: left;
     color: $color-white;
+    @include portrait {
+      margin-left: 6.2rem;
+    }
     h1 {
+      max-width: 56rem;
+      width: 100%;
       margin-top: 10rem;
       font-weight: 700;
+      @include portrait {
+        margin-top: 1.9rem;
+      }
     }
   }
   &__col {
@@ -36,7 +42,7 @@
     top: 1.6rem;
     right: -13.4rem;
     @include portrait {
-      margin: 0 auto;
+      margin: 37rem auto 0;
       top: 0;
       right: 0;
     }

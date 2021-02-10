@@ -16,5 +16,9 @@
   }
   .btn {
     margin-left: -7.5rem;
+    font-size: 1.7rem;
+    @include portrait {
+      margin-left: -3rem;
+    }
   }
 }
