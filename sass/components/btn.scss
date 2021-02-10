@@ -7,6 +7,7 @@
   border: none;
   font-family: $second-font;
   font-weight: 600;
+  transition: background-color 0.35s ease-in-out;
   &--large {
     width: 22rem;
     box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
@@ -17,5 +18,9 @@
   &--small {
     width: 9.5rem;
     box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: $color-secondary;
   }
 }
