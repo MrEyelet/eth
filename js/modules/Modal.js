@@ -1,4 +1,4 @@
-import MicroModal from "micromodal" // es6 module
+import MicroModal from "micromodal"
 
 class Modal {
   constructor() {

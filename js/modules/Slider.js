@@ -7,8 +7,7 @@ class Slider {
   }
 
   initSlider() {
-    // console.log("test")
-    const breakpoint = window.matchMedia("(min-width:768px)")
+    const breakpoint = window.matchMedia("(min-width:769px)")
     let mySwiper
     const breakpointChecker = () => {
       if (breakpoint.matches === true) {
@@ -20,26 +19,29 @@ class Slider {
     }
     const enableSwiper = () => {
       mySwiper = new Swiper(".swiper-container", {
-        // loop: true,
+        loop: false,
         slidesPerView: 3,
-        // 320: {
-        //   slidesPerView: 2,
-        //   spaceBetween: 20
-        // },
-        // 768: {
-        //   slidesPerView: 3,
-        //   spaceBetween: 30
-        // },
-        // a11y: true,
-        // keyboardControl: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          500: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          }
+        },
+        // centeredSlides: true,
         grabCursor: true,
         pagination: ".swiper-pagination",
         paginationClickable: true
       })
     }
+
     breakpoint.addEventListener("change", () => {
       breakpointChecker()
     })
+
     breakpointChecker()
   }
 }
