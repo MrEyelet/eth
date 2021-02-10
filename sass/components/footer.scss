@@ -37,9 +37,11 @@
   &__list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 80rem;
     width: 100%;
+    @include phablet {
+      flex-wrap: wrap;
+    }
   }
   &__list-el {
     width: 20rem;
