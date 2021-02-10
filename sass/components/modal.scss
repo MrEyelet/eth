@@ -90,6 +90,7 @@
       background: #555;
     }
     @include phablet {
+      height: 30rem;
       font-size: 1.3rem;
       line-height: 1.8rem;
     }
