@@ -42,9 +42,11 @@
   }
   &__img {
     @include resp-img((382/544) * 100%);
-    width: 54.4rem;
+    max-width: 54.4rem;
+    width: 100%;
     top: 1.6rem;
     right: -11.4rem;
+    overflow: hidden;
     @include portrait {
       margin: 37rem auto 0;
       top: 0;

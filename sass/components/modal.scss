@@ -63,6 +63,10 @@
     background: transparent;
     border: 0;
     outline: none;
+    transition: transform 0.35s ease-in-out;
+    &:hover {
+      transform: rotate(90deg);
+    }
     img {
       pointer-events: none;
     }

@@ -22,6 +22,7 @@
       transform: scaleX(0);
       transition: transform 0.5s ease-in-out;
       transform-origin: left;
+      will-change: transform;
     }
     &:hover {
       &:before {
