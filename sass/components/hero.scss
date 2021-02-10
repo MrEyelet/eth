@@ -39,6 +39,9 @@
     z-index: $over-content;
     border: none;
     background: transparent;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &__img {
     @include resp-img((382/544) * 100%);

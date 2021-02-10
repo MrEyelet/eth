@@ -260,14 +260,10 @@
         <a href="fb" class="socials__fb"><img src="assets/icons/fb.svg" alt="fb" /><span class="visually-hidden">facebook</span></a>
       </div>
     </footer>
-    <script>
+    <!-- <script>
       const links = document.querySelectorAll(".header ul a");
 
 for (const link of links) {
-  link.addEventListener("click", function(){
-    link.classList.remove('active')
-    console.log(links);
-  });
 
   link.addEventListener("click", clickHandler);
 }
@@ -276,7 +272,7 @@ function clickHandler(e) {
   e.preventDefault();
   // links.classList.remove('active')
   const href = this.getAttribute("href");
-  this.classList.add('active')
+  // this.classList.add('active')
   const offsetTop = document.querySelector(href).offsetTop;
 
   scroll({
@@ -284,6 +280,10 @@ function clickHandler(e) {
     behavior: "smooth"
   });
 }
+    </script> -->
+    <script>
+
+// }
     </script>
     <script src="js/main-scripts.js"></script>
   </body>
