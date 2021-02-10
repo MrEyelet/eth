@@ -8,17 +8,24 @@
       height: 11.5rem;
     }
   }
+  &__title {
+    font-size: 1.3rem;
+  }
   &__name {
     margin-bottom: 0.8rem;
     color: $color-third;
+    @include phablet {
+      margin-bottom: 0;
+    }
   }
   &__desc {
     margin-top: 1rem;
     padding: 0 2rem;
-    @include phablet {
+    @include portrait {
       padding: 0 1rem;
     }
     @include phablet {
+      margin-top: 0.3rem;
       font-size: 1.2rem;
       line-height: 1.8rem;
     }
@@ -48,11 +55,17 @@
     &:focus {
       outline: none;
     }
+    @include phablet {
+      margin-bottom: 0.6rem;
+    }
   }
   &__socials {
     display: flex;
     justify-content: center;
     margin-top: 3.2rem;
+    @include phablet {
+      margin-top: 1.7rem;
+    }
   }
   &__socials-icon {
     display: block;

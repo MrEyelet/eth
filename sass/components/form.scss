@@ -7,6 +7,10 @@
   margin: 5rem auto 0;
   background-color: $color-primary;
   border-radius: 1.3rem;
+  @include phablet {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
   input {
     margin-bottom: 2.5rem;
     padding: 1.3rem 2rem;

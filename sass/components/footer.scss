@@ -10,6 +10,9 @@
     align-items: center;
     margin-bottom: 5.8rem;
     position: relative;
+    @include phablet {
+      flex-direction: column;
+    }
   }
   &__cta {
     text-align: center;
@@ -17,6 +20,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @include phablet {
+      position: relative;
+      top: unset;
+      left: unset;
+      transform: translate(0, 0);
+    }
   }
   &__heading {
     margin-bottom: 1.6rem;
@@ -28,6 +37,7 @@
   &__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 80rem;
     width: 100%;
   }
@@ -36,6 +46,12 @@
     text-align: center;
     border-left: 2px solid #9ca4c7;
     &:first-of-type {
+      border: none;
+    }
+    @include phablet {
+      width: 14rem;
+      font-size: 1.2rem;
+      line-height: 2.4rem;
       border: none;
     }
   }
