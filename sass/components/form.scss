@@ -3,7 +3,7 @@
   flex-direction: column;
   max-width: 40rem;
   width: 100%;
-  padding: 8.4rem 4rem 6.5rem;
+  padding: 8.4rem 4rem 2.5rem;
   margin: 5rem auto 0;
   background-color: $color-primary;
   border-radius: 1.3rem;
@@ -12,5 +12,23 @@
     padding: 1.3rem 2rem;
     border-radius: 2.5rem;
     border: none;
+  }
+  &__checkbox-label {
+    text-align: left;
+    &:hover {
+      cursor: pointer;
+    }
+    &__checkbox {
+      position: relative;
+      &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: red;
+      }
+    }
   }
 }

@@ -157,7 +157,10 @@
           <form class="form" action="">
             <input type="text" id="name" name="name" required placeholder="Your Name" />
             <input type="email" id="email" name="email" required placeholder="Your Email" />
-            <input type="checkbox" required />
+            <label class="form__checkbox-label" for="agree">
+              <input id="agree" class="form__checkbox" type="checkbox" required />
+              Checkbox
+            </label>
             <button type="submit" class="btn btn--small">Send</button>
           </form>
         </div>
