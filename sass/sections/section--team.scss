@@ -6,5 +6,9 @@
   }
   .section__wrapper {
     max-width: 124rem;
+    @include portrait {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }

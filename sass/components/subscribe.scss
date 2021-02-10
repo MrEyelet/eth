@@ -1,16 +1,27 @@
 .subscribe {
   margin-top: 7.4rem;
+  @include phablet {
+    margin-top: 4.8rem;
+  }
   &__title {
     margin-bottom: 1.8rem;
     opacity: 0.7;
+    @include phablet {
+      margin-bottom: 0.7rem;
+      font-size: 1.4rem;
+      line-height: 2.6rem;
+    }
   }
   &__form-group {
     display: flex;
+    @include phablet {
+      flex-direction: column;
+    }
   }
   input {
     max-width: 48rem;
     width: 100%;
-    padding: 0 2rem;
+    padding: 1.4rem 2rem;
     border-radius: 2.5rem;
     border: none;
   }
@@ -19,6 +30,11 @@
     font-size: 1.7rem;
     @include portrait {
       margin-left: -3rem;
+    }
+    @include phablet {
+      width: 100%;
+      margin-top: 1.6rem;
+      margin-left: 0;
     }
   }
 }

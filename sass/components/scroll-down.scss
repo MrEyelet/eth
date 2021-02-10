@@ -5,4 +5,10 @@
   margin: 12.2rem auto 0;
   position: relative;
   z-index: $over-content;
+  @include portrait {
+    position: absolute;
+    top: 52rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

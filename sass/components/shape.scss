@@ -8,7 +8,10 @@
     max-width: 144rem;
     @include portrait {
       width: 140%;
-      top: 23rem;
+      top: 22.3rem;
+    }
+    @include phablet {
+      top: 25.8rem;
     }
   }
   &--medium {
@@ -19,6 +22,9 @@
       width: 250%;
       top: 0;
     }
+    @include phablet {
+      width: 310%;
+    }
   }
   &--small {
     max-width: 84rem;
@@ -27,6 +33,11 @@
     @include portrait {
       top: 1rem;
       left: -20rem;
+    }
+    @include phablet {
+      top: 10.7rem;
+      left: -13.8rem;
+      width: 120%;
     }
   }
 }

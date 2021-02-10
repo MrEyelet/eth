@@ -1,3 +1,6 @@
 .logo {
   width: 9.6rem;
+  @include phablet {
+    width: 5.6rem;
+  }
 }

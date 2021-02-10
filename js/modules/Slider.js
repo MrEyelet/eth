@@ -19,19 +19,19 @@ class Slider {
     }
     const enableSwiper = () => {
       mySwiper = new Swiper(".swiper-container", {
-        loop: false,
+        loop: true,
         slidesPerView: 3,
         breakpoints: {
           320: {
             slidesPerView: 2,
-            spaceBetween: 20
+            spaceBetween: 25
           },
           500: {
             slidesPerView: 3,
-            spaceBetween: 20
+            spaceBetween: 25
           }
         },
-        // centeredSlides: true,
+        centeredSlides: true,
         grabCursor: true,
         pagination: ".swiper-pagination",
         paginationClickable: true

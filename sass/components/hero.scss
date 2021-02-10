@@ -9,6 +9,9 @@
     @include portrait {
       margin-left: 6.2rem;
     }
+    @include phablet {
+      margin-left: 0;
+    }
     h1 {
       max-width: 56rem;
       width: 100%;

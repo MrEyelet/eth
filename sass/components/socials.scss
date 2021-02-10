@@ -3,6 +3,10 @@
   bottom: 1.6rem;
   right: 9.6rem;
   z-index: $header;
+  @include portrait {
+    bottom: 13.6rem;
+    right: 1.6rem;
+  }
   &__fb,
   &__twitter {
     display: block;
