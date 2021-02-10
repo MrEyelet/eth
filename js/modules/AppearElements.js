@@ -30,9 +30,10 @@ class AppearElements {
     this.tlShowElements.from(".hero__img-overlay", { duration: 1, scaleX: 0, transformOrigin: "left", ease: Power4.easeOut }, "=-1.2")
     this.tlShowElements.to(".hero__img img", { duration: 0, opacity: 1, ease: Power4.easeOut })
     this.tlShowElements.to(".hero__img-overlay", { duration: 1, scaleX: 0, transformOrigin: "right", ease: Power4.easeOut })
+    this.tlShowElements.from(".header", { duration: 0.35, y: "-100%", ease: Power1.easeOut }, "=-2")
     this.tlShowElements.to(".subscribe__form-group", { duration: 1, width: "100%", opacity: 1, ease: Power4.easeOut }, "=-1.1")
     this.tlShowElements.from(".subscribe__title", { duration: 1.5, opacity: 0, ease: Power4.easeOut }, "=-1.1")
-    this.tlShowElements.from(".header", { duration: 0.35, y: "-100%", ease: Power1.easeOut }, "=-2")
+    this.tlShowElements.from(".socials a", { duration: 1.5, opacity: 0, y: "10%", stagger: 0.15, ease: Power4.easeOut }, "=-1.1")
     setTimeout(() => {
       this.body.classList.remove("scroll-disabled")
     }, 600)
