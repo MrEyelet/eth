@@ -3,6 +3,10 @@
   &__img {
     width: 13rem;
     height: 13rem;
+    @include phablet {
+      width: 11.5rem;
+      height: 11.5rem;
+    }
   }
   &__name {
     margin-bottom: 0.8rem;
@@ -11,6 +15,13 @@
   &__desc {
     margin-top: 1rem;
     padding: 0 2rem;
+    @include phablet {
+      padding: 0 1rem;
+    }
+    @include phablet {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
   }
   &__modal {
     display: none;

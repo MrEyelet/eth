@@ -41,13 +41,19 @@
   }
   &__img {
     @include resp-img((382/544) * 100%);
-    width: 54.4rem;
+    // width: 54.4rem;
     top: 1.6rem;
     right: -13.4rem;
     @include portrait {
       margin: 37rem auto 0;
       top: 0;
       right: 0;
+    }
+    @include phablet {
+      margin-top: 15.6rem;
+    }
+    img {
+      border-radius: 6px;
     }
   }
 }

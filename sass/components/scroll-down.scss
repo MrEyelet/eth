@@ -11,4 +11,10 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  @include phablet {
+    width: 3rem;
+    height: 3rem;
+    top: 43.6rem;
+    margin: 0;
+  }
 }

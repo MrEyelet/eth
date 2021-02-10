@@ -1,5 +1,8 @@
 .section--team {
   padding: 5.5rem 0 8.8rem;
+  @include phablet {
+    padding-top: 3.7rem;
+  }
   h2 {
     text-transform: uppercase;
     letter-spacing: 1.2rem;

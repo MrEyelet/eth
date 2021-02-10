@@ -24,14 +24,14 @@ class Slider {
         breakpoints: {
           320: {
             slidesPerView: 2,
-            spaceBetween: 25
+            spaceBetween: 5
           },
           500: {
             slidesPerView: 3,
             spaceBetween: 25
           }
         },
-        centeredSlides: true,
+        // centeredSlides: true,
         grabCursor: true,
         pagination: ".swiper-pagination",
         paginationClickable: true
