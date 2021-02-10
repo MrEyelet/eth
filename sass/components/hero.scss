@@ -17,6 +17,7 @@
       width: 100%;
       margin-top: 10rem;
       font-weight: 700;
+      will-change: opacity, transform;
       @include portrait {
         margin-top: 1.9rem;
       }
@@ -41,9 +42,9 @@
   }
   &__img {
     @include resp-img((382/544) * 100%);
-    // width: 54.4rem;
+    width: 54.4rem;
     top: 1.6rem;
-    right: -13.4rem;
+    right: -11.4rem;
     @include portrait {
       margin: 37rem auto 0;
       top: 0;
@@ -54,6 +55,17 @@
     }
     img {
       border-radius: 6px;
+      opacity: 0;
     }
+  }
+  &__img-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: $over-content;
+    background-color: $color-third;
+    border-radius: 6px;
   }
 }
