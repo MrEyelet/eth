@@ -26,6 +26,9 @@
     padding: 1.4rem 2rem;
     border-radius: 2.5rem;
     border: none;
+    @include phablet {
+      max-width: 100%;
+    }
   }
   .btn {
     margin-left: -7.5rem;

@@ -52,6 +52,7 @@
   }
   &__subtitle {
     margin-bottom: 3.2rem;
+    font-size: 1.3rem;
   }
   &__close {
     width: 2.4rem;
@@ -75,7 +76,7 @@
     }
   }
   &__content {
-    height: 50rem;
+    height: 45rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     overflow-y: auto;
@@ -96,6 +97,9 @@
       height: 30rem;
       font-size: 1.3rem;
       line-height: 1.8rem;
+    }
+    @include mobile {
+      height: 27rem;
     }
   }
   &__btn {

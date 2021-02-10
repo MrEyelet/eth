@@ -7,7 +7,7 @@
     text-align: left;
     color: $color-white;
     @include portrait {
-      margin-left: 6.2rem;
+      // margin-left: 6.2rem;
     }
     @include phablet {
       margin-left: 0;
