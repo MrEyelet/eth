@@ -9,7 +9,7 @@
   }
   &__list-el {
     position: relative;
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.8rem;
     &::before {
       content: "";
       width: 100%;
@@ -38,7 +38,7 @@
     }
   }
   &__list-link {
-    padding: 0 0.4rem 0.7rem;
+    padding: 0 0.4rem 0;
     position: relative;
     color: $color-primary-2;
   }
