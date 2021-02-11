@@ -25,7 +25,7 @@ class AppearElements {
     this.tlShowElements.from(".preloader__cover", { duration: 1.5, x: "200%", ease: Power1.easeOut })
     this.tlShowElements.to(".preloader__outer-circle", { duration: 0.5, opacity: 0, ease: Power4.easeOut }, "=-1.5")
     this.tlShowElements.to(".preloader", { duration: 1.5, x: "-100%", ease: Power4.easeOut }, "=-1")
-    this.tlShowElements.from(".shape", { duration: 1.5, rotate: "-20deg", transformOrigin: "top left", stagger: 0.1, ease: Power4.easeOut }, "=-1.4")
+    this.tlShowElements.from(".shape", { duration: 1.5, rotate: "-20deg", transformOrigin: "top left", stagger: 0.2, ease: Power4.easeOut }, "=-1.4")
     this.tlShowElements.from(".hero__intro h1", { duration: 1, scale: 1.1, opacity: 0, ease: Power1.easeOut }, "=-1.4")
     this.tlShowElements.from(".hero__img-overlay", { duration: 1, scaleX: 0, opacity: 0, transformOrigin: "left", ease: Power4.easeOut }, "=-1.2")
     this.tlShowElements.to(".hero__img img", { duration: 0, opacity: 1, ease: Power4.easeOut })
