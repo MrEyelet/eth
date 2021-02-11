@@ -38,6 +38,7 @@
     }
   }
   &__checkbox-label {
+    margin: 2rem 0;
     position: relative;
     text-align: left;
     &:hover {
@@ -47,5 +48,42 @@
   &__checkbox {
     margin: 0;
     position: relative;
+    &:checked {
+      ~ .form__checkbox-el::after {
+        opacity: 1;
+      }
+    }
+  }
+  &__checkbox-el {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $color-white;
+      border-radius: 4px;
+    }
+    &:after {
+      content: "";
+      width: 1rem;
+      height: 1rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: $color-third;
+      border-radius: 100%;
+      opacity: 0;
+    }
+  }
+  &__checkbox-agree {
+    padding-left: 2rem;
   }
 }
