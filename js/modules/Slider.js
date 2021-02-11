@@ -31,10 +31,12 @@ class Slider {
             spaceBetween: 25
           }
         },
-        // centeredSlides: true,
+        centeredSlides: true,
         grabCursor: true,
-        pagination: ".swiper-pagination",
-        paginationClickable: true
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        }
       })
     }
 

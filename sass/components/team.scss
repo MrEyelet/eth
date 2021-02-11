@@ -7,4 +7,25 @@
   @include phablet {
     margin-top: 2.6rem;
   }
+  .swiper-pagination {
+    display: none;
+    position: absolute;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    display: flex;
+    height: auto;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    justify-content: center;
+    &-bullet {
+      margin: 0 0.3rem;
+    }
+    @include portrait {
+      display: flex;
+    }
+  }
 }
