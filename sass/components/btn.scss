@@ -1,9 +1,11 @@
 .btn {
+  display: block;
   min-height: 4.6rem;
   background-color: $color-third;
   color: $color-white;
   padding: 1rem 2rem;
   border-radius: 2.3rem;
+  text-align: center;
   border: none;
   font-family: $second-font;
   font-weight: 600;

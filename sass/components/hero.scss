@@ -1,5 +1,6 @@
 .hero {
   display: flex;
+  width: 100%;
   @include portrait {
     flex-direction: column;
   }
@@ -15,7 +16,7 @@
     h1 {
       max-width: 56rem;
       width: 100%;
-      margin-top: 10rem;
+      margin-top: 8rem;
       font-weight: 700;
       will-change: opacity, transform;
       @include portrait {
@@ -47,7 +48,7 @@
     @include resp-img((382/544) * 100%);
     max-width: 54.4rem;
     width: 100%;
-    top: 1.6rem;
+    top: 0;
     right: -11.4rem;
     overflow: hidden;
     @include portrait {

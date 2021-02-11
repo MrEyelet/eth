@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 html {
+  scroll-behavior: smooth;
   font-size: vw(10);
   @include portrait {
     font-size: 10px;

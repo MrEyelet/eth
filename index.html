@@ -42,32 +42,34 @@
         <div class="shape shape--large" aria-hidden="true">
           <img src="assets/shapes/shape-large.svg" alt="shape" />
         </div>
-        <div class="section__wrapper hero">
-          <div class="hero__col hero__intro">
-            <h1>The first fully-automatic social crypto trading platform with real crypto currency</h1>
-            <div class="subscribe">
-              <p class="subscribe__title">Subscribe and get the lastes information</p>
-              <form class="subscribe__form" action="">
-                <div class="subscribe__form-group">
-                  <input type="email" id="subscribe" name="subscribe" required placeholder="Enter Your Email" />
-                  <button type="submit" class="btn btn--medium">Subscribe</button>
-                </div>
-              </form>
+        <div class="section__wrapper">
+          <div class="hero">
+            <div class="hero__col hero__intro">
+              <h1>The first fully-automatic social crypto trading platform with real crypto currency</h1>
+              <div class="subscribe">
+                <p class="subscribe__title">Subscribe and get the lastes information</p>
+                <form class="subscribe__form" action="">
+                  <div class="subscribe__form-group">
+                    <input type="email" id="subscribe" name="subscribe" required placeholder="Enter Your Email" />
+                    <button type="submit" class="btn btn--medium">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="hero__col">
+              <div class="hero__img">
+                <div class="hero__img-overlay" aria-hidden="true"></div>
+                <button type="button" class="hero__play-btn" data-micromodal-trigger="modal-video">
+                  <img src="assets/icons/play-btn.svg" alt="play-btn" />
+                </button>
+                <img src="assets/img/video-img.jpg" alt="vide-img" />
+              </div>
             </div>
           </div>
-          <div class="hero__col">
-            <div class="hero__img">
-              <div class="hero__img-overlay" aria-hidden="true"></div>
-              <button type="button" class="hero__play-btn" data-micromodal-trigger="modal-video">
-                <img src="assets/icons/play-btn.svg" alt="play-btn" />
-              </button>
-              <img src="assets/img/video-img.jpg" alt="vide-img" />
+          <div class="scroll-down">
+            <div class="scroll-down__icon">
+              <img src="assets/icons/down-arrow.svg" alt="arrow" aria-label="scroll-down" />
             </div>
-          </div>
-        </div>
-        <div class="scroll-down">
-          <div class="scroll-down__icon">
-            <img src="assets/icons/down-arrow.svg" alt="arrow" aria-label="scroll-down" />
           </div>
         </div>
       </section>
@@ -244,7 +246,7 @@
             <h2 class="footer__heading">Contact us:</h2>
             <a href="mailto:have@nicecoding.io " class="footer__link">have@nicecoding.io </a>
           </div>
-          <button type="button" class="btn btn--large">Read Whitepaper</button>
+          <a href="assets/docs/sample-pdf.pdf" class="btn btn--large" download>Read Whitepaper</a>
         </div>
         <div class="footer__bottom">
           <ul class="footer__list">
@@ -260,31 +262,6 @@
         <a href="fb" class="socials__fb"><img src="assets/icons/fb.svg" alt="fb" /><span class="visually-hidden">facebook</span></a>
       </div>
     </footer>
-    <!-- <script>
-      const links = document.querySelectorAll(".header ul a");
-
-for (const link of links) {
-
-  link.addEventListener("click", clickHandler);
-}
-
-function clickHandler(e) {
-  e.preventDefault();
-  // links.classList.remove('active')
-  const href = this.getAttribute("href");
-  // this.classList.add('active')
-  const offsetTop = document.querySelector(href).offsetTop;
-
-  scroll({
-    top: offsetTop,
-    behavior: "smooth"
-  });
-}
-    </script> -->
-    <script>
-
-// }
-    </script>
     <script src="js/main-scripts.js"></script>
   </body>
 </html>
