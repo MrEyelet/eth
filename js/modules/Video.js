@@ -9,7 +9,9 @@ class Video {
 
   playVideo() {
     this.playBtn.addEventListener("click", e => {
-      // e.stopPropagation()
+      this.modalVideo.play()
+    })
+    this.playBtn.addEventListener("touchstart", () => {
       this.modalVideo.play()
     })
   }
@@ -18,10 +20,10 @@ class Video {
       this.modalVideo.pause()
       this.modalVideo.currentTime = 0
     })
-    // window.addEventListener("click", () => {
-    //   this.modalVideo.pause()
-    //   this.modalVideo.currentTime = 0
-    // })
+    this.playBtn.addEventListener("touchstart", () => {
+      this.modalVideo.pause()
+      this.modalVideo.currentTime = 0
+    })
   }
 }
 
