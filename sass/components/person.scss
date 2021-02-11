@@ -74,6 +74,9 @@
     display: flex;
     justify-content: center;
     margin-top: 3.2rem;
+    @include portrait {
+      margin-bottom: 1rem;
+    }
     @include phablet {
       margin-top: 1.7rem;
     }
