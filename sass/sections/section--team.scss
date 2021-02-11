@@ -1,5 +1,8 @@
 .section--team {
   padding: 3.8rem 0 8.8rem;
+  @include portrait {
+    padding-top: 5.5rem;
+  }
   // @include phablet {
   //   padding-top: 3.7rem;
   // }

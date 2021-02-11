@@ -20,7 +20,10 @@
       font-weight: 700;
       will-change: opacity, transform;
       @include portrait {
-        margin-top: 1.9rem;
+        margin: 13rem auto 0;
+      }
+      @include phablet {
+        margin-top: 2rem;
       }
     }
   }
