@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sen:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/sal.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body id="ico" class="scroll-disabled">
@@ -48,10 +49,10 @@
               <h1>The first fully-automatic social crypto trading platform with real crypto currency</h1>
               <div class="subscribe">
                 <p class="subscribe__title">Subscribe and get the lastes information</p>
-                <form class="subscribe__form" action="">
+                <form class="subscribe__form" action="https://formspree.io/f/xrgodnrk" method="POST">
                   <div class="subscribe__form-group">
-                    <input type="email" id="subscribe" name="subscribe" required placeholder="Enter Your Email" />
-                    <button type="submit" class="btn btn--medium">Subscribe</button>
+                    <input type="email" id="subscribe" name="_replyto" required placeholder="Enter Your Email" />
+                    <button type="submit" value="Subscribe" class="btn btn--medium">Subscribe</button>
                   </div>
                 </form>
               </div>
@@ -75,8 +76,8 @@
       </section>
       <section id="team" class="theme--light section section--team">
         <div class="section__wrapper">
-          <h2>Team</h2>
-          <div class="team">
+          <h2 data-sal="fade" data-sal-delay="300">Team</h2>
+          <div class="team" data-sal="slide-up" >
             <div class="swiper-container">
               <div class="swiper-wrapper slider">
                 <div class="swiper-slide">
@@ -144,7 +145,7 @@
                     <button type="button" class="person__modal-trigger" data-micromodal-trigger="modal-4">
                       <div class="person__img"><img src="assets/avatars/frederick.jpg" alt="edgar" /></div>
                     </button>
-                      <h3 class="person__name">David Banks</h3>
+                      <h3 class="person__name">Frederick Parson</h3>
                       <p class="person__title">COO</p>
                       <p class="person__desc">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
                     <div class="person__socials">
@@ -166,17 +167,17 @@
       </section>
       <section id="contact" class="theme--dark section section--contact">
         <div class="section__wrapper">
-          <h2>Contact us</h2>
-          <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-          <form class="form" action="">
+          <h2 data-sal="fade" data-sal-delay="300">Contact us</h2>
+          <p data-sal="fade" data-sal-delay="300">Most calendars are designed for teams. Slate is designed for freelancers</p>
+          <form data-sal="zoom-out" class="form" action="https://formspree.io/f/xrgodnrk" method="POST">
             <input type="text" id="name" name="name" required placeholder="Your Name" />
-            <input type="email" id="email" name="email" required placeholder="Your Email" />
+            <input type="email" id="email" name="_replyto" required placeholder="Your Email" />
             <label class="form__checkbox-label" for="agree">
               <input id="agree" class="form__checkbox" type="checkbox" required />
               <div class="form__checkbox-el"></div>
               <span class="form__checkbox-agree">Agree privacy policy</span>
             </label>
-            <button type="submit" class="btn btn--small">Send</button>
+            <input type="submit" value="Send" class="btn btn--small">
           </form>
         </div>
       </section>
@@ -209,7 +210,7 @@
       <div class="modal__overlay" tabindex="-3" data-micromodal-close>
         <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-3-title">
           <header class="modal__header">
-            <h2 class="modal__title" id="modal-4-title">Mae Martin</h2>
+            <h2 class="modal__title" id="modal-4-title">David Banks</h2>
             <p class="modal__subtitle">CFO</p>
           </header>
           <button class="modal__close" aria-label="Close modal" data-micromodal-close><img src="assets/icons/close.svg" alt="close"></button>
