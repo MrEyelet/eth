@@ -13,7 +13,7 @@
     align-items: center;
     margin-bottom: 6.5rem;
     position: relative;
-    @include phablet {
+    @include portrait {
       flex-direction: column;
       margin-bottom: 4.5rem;
     }
@@ -32,7 +32,7 @@
         opacity: 0.7;
       }
     }
-    @include phablet {
+    @include portrait {
       margin-bottom: 3rem;
       position: relative;
       top: unset;
@@ -43,7 +43,7 @@
   &__heading {
     margin-bottom: 1.6rem;
     color: $color-dimmed;
-    @include phablet {
+    @include portrait {
       margin-bottom: 1rem;
     }
   }
