@@ -7,10 +7,8 @@
       width: 19.6rem;
     }
   }
-  &__list-link {
-    padding: 0 0.4rem 0.7rem;
+  &__list-el {
     position: relative;
-    color: $color-dimmed;
     &::before {
       content: "";
       width: 100%;
@@ -35,5 +33,10 @@
         transform: scaleX(1);
       }
     }
+  }
+  &__list-link {
+    padding: 0 0.4rem 0.7rem;
+    position: relative;
+    color: $color-dimmed;
   }
 }

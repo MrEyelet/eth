@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
-  <body class="scroll-disabled">
+  <body id="ico" class="scroll-disabled">
     <div class="preloader">
       <div class="preloader__cover"></div>
       <div class="preloader__outer-circle">
@@ -22,7 +22,7 @@
     <header class="header">
       <div class="header__wrapper">
         <div class="logo"><img src="assets/logo//logo.svg" alt="logo" /></div>
-        <nav class="nav">
+        <nav id="nav" class="nav">
           <ul class="nav__list">
             <li class="nav__list-el text-normal"><a class="nav__list-link active" href="#ico">ICO</a></li>
             <li class="nav__list-el text-normal"><a class="nav__list-link" href="#team">Team</a></li>
@@ -32,7 +32,7 @@
       </div>
     </header>
     <main>
-      <section id="ico" class="theme--light section section--hero">
+      <section class="theme--light section section--hero">
         <div class="shape shape--medium" aria-hidden="true">
           <img src="assets/shapes/shape-medium.svg" alt="shape" />
         </div>
@@ -262,6 +262,7 @@
         <a href="fb" class="socials__fb"><img src="assets/icons/fb.svg" alt="fb" /><span class="visually-hidden">facebook</span></a>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/menuspy@latest/dist/menuspy.min.js"></script>
     <script src="js/main-scripts.js"></script>
   </body>
 </html>
