@@ -41,6 +41,7 @@
   }
   &__heading {
     margin-bottom: 1.6rem;
+    color: $color-dimmed;
     @include phablet {
       margin-bottom: 1rem;
     }

@@ -3,12 +3,13 @@
   @include portrait {
     padding-top: 5.5rem;
   }
-  // @include phablet {
-  //   padding-top: 3.7rem;
-  // }
+  @include phablet {
+    padding-top: 3.5rem;
+  }
   h2 {
     text-transform: uppercase;
     letter-spacing: 1.2rem;
+    color: $color-dimmed;
   }
   .section__wrapper {
     max-width: 124rem;

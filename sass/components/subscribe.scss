@@ -31,6 +31,26 @@
     padding: 1.4rem 2rem;
     border-radius: 2.5rem;
     border: none;
+    &::-webkit-input-placeholder {
+      font-size: 1.7rem;
+      line-height: 2rem;
+      color: $color-dark-2;
+    }
+    &::-moz-placeholder {
+      font-size: 1.7rem;
+      line-height: 2rem;
+      color: $color-dark-2;
+    }
+    &:-ms-input-placeholder {
+      font-size: 1.7rem;
+      line-height: 2rem;
+      color: $color-dark-2;
+    }
+    &:-moz-placeholder {
+      font-size: 1.7rem;
+      line-height: 2rem;
+      color: $color-dark-2;
+    }
     @include phablet {
       max-width: 100%;
     }
